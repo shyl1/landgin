@@ -1,10 +1,10 @@
 import { AiOutlineMenu } from "react-icons/ai";
 import { RiTranslate } from "react-icons/ri";
-import { IoIosArrowDropright } from "react-icons/io";
 import { IoMoonOutline } from "react-icons/io5";
 import { RiSunLine } from "react-icons/ri";
 import { Logo } from "../../assets";
 import { useState } from "react";
+import Button from "../shared/Button";
 
 export default function Header() {
 
@@ -21,19 +21,21 @@ export default function Header() {
 
 
     return (
-        <header className="absolute bg-transparent w-full h-[110px] top-0 z-20 flex items-center ">
+        <header className="fixed backdrop-blur-xs bg-white/10 w-full h-[110px] top-0 z-20 flex items-center ">
             
-            <div className="container flex justify-between items-center">
+            <div className="container flex justify-between items-center max-2xl:px-5">
                 {/* menu */}
                 <AiOutlineMenu style={{fontSize: '36px'}} className="cursor-pointer" />
 
                 {/* logo */}
-                <img src={Logo} alt="logo" />
+                <div className="flex-1 flex justify-center items-center">
+                    <img src={Logo} alt="logo" className="w-[152px] h-[60px] md:w-[223px] md:h-[73px]" />
+                </div>
 
                 {/* btns */}
-                <div className="flex justify-between items-center gap-5">
+                <div className="flex justify-between items-center gap-2 sm:gap-5">
                     {/* translate */}
-                    <div className="flex items-center gap-1">
+                    <div className="flex items-center gap-1 max-md:hidden">
                         <span className="font-[var(--font-Tajawal)]">اللغة العربية</span>
                         <RiTranslate  />
                     </div>
@@ -58,13 +60,10 @@ export default function Header() {
                         </div>
                         </label>
                     </div>
-
-                    
-
                     {/* call to action btn */}
-                    <button className="rounded-[10px] px-5 py-3 flex justify-center items-center gap-1 text-white" style={{background: "linear-gradient(260.87deg, #941225 -4.57%, #EB2F4A 99.03%)",}}>
-                        LETS TALK <IoIosArrowDropright  style={{color: 'white'}}/>
-                    </button>
+
+                    <Button text={'LETS TALK'}/>
+                    
                 </div>
 
             </div>

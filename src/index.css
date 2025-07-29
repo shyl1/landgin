@@ -3,15 +3,29 @@
 @theme {
     /* colors */
     --color-toggle: #1C344C;
+    --color-primary:#52C3D6;
+    --color-black: #000000;
+    --color-white :rgba(255, 255, 255, 1);
+    --color-hover:rgba(28, 52, 76, 1);
+    --color-hr: rgba(28, 52, 76, 0.1);
+    --color-yellow: rgba(255, 189, 78, 0.25);
+    --color-red:rgba(235, 47, 74, 0.25);
+    --color-green:rgba(82, 195, 214, 0.25);
+
 
     /* fonts */
     --font-space: "Space Grotesk", sans-serif;
     --font-red: "Red Hat Display", sans-serif;
     --font-Tajawal :"Tajawal", sans-serif;
+    --font-PlayFair: "Playfair Display", serif;
 
+
+    /* customizing shadows */
+    --shadow-custom:  0 0 35px 10px rgba(0, 0, 0, 0.06);
 }
 
 .container{
     max-width: 1280px;
     margin: 0 auto;
 }
+
