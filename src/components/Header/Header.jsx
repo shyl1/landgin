@@ -62,7 +62,7 @@ export default function Header() {
                     </div>
                     {/* call to action btn */}
 
-                    <Button text={'LETS TALK'}/>
+                    <Button visible={'max-md:hidden'} text={'LETS TALK'}/>
                     
                 </div>
 

@@ -7,7 +7,7 @@ import CounterCard from "../shared/CounterCard";
 
 export default function Achievement() {
     return (
-        <section className="h-[80vh]">
+        <section className=" h-full xl:h-[86.4vh]  ">
 
             {/* achievements */}
             <div className="container h-[20vh] md:h-[35vh]">
@@ -25,21 +25,21 @@ export default function Achievement() {
             {/* divider */}
             <hr className="h-[1px] w-full border-[var(--color-hr)] " />
 
-            <div className="container h-[40vh]">
+            <div className="container h-auto xl:h-[40vh]">
                 <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 h-full ">
 
                     {/* Unique Designs  */}
                     <Card headerText={'Unique Designs'} paraText={'We provide the best UI/UX Design by following the latest trends of the market.'} 
                         bgIcon={'bg-yellow'} borderIconRadius={'rounded-[43px]'}  widthBg={'w-[60px] h-[60px]'} icon={<RiImageCircleFill size={46} style={{color: '#FFBD4E'}} />}
                         textSize={'text-[27px]'} MarginTop={'mt-2'} width={'w-[350px] xl:w-[390px]'} height={'h-[290px] xl:h-[322px]'} textColor={'text-[var(--color-black)]'} paraHeight={'h-[63px]'} paraWidth={'w-[270px]'}
-                        borderColor={'border-[var(--color-hr)]'} borderRight={'border-b md:border-r'} 
+                        borderColor={'border-[var(--color-hr)]'} borderRight={'max-lg:border-b md:border-r'} 
                         />
 
                     {/* Fitting Your Business  */}
                     <Card headerText={'Fitting Your Business '} paraText={'We create and innovate, with us you can guarantee the highly standards of inventions'} bgIcon={'bg-red'} 
                         borderIconRadius={'rounded-[43px]'}  widthBg={'w-[60px] h-[60px]'} icon={<GiGymBag size={34} style={{color: '#EB2F4A'}} />}
                         textSize={'text-[27px]'} MarginTop={'mt-2'} width={'w-[350px] xl:w-[390px]'} height={'h-[290px] xl:h-[322px]'} textColor={'text-white'} paraHeight={'h-[63px]'} paraWidth={'w-[270px]'}
-                        borderColor={'border-[var(--color-hr)]'} borderRight={'border-b lg:border-r'} bgColor={'bg-toggle'} 
+                        borderColor={'border-[var(--color-hr)]'} borderRight={'max-lg:border-b lg:border-r'} bgColor={'bg-toggle'} 
                         borderRadius={'rounded-[10px]'} padding={' p-5'} 
                     />
 
