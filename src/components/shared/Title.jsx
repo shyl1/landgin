@@ -1,7 +1,7 @@
 
 
-export default function Title({title}) {
+export default function Title({title , fontSize}) {
     return (
-        <h1 className={`text-[22px] text-[var(--color-primary)] font-space font-bold uppercase`}>{title}</h1>
+        <h1 className={`${fontSize} text-[var(--color-primary)] font-space font-bold uppercase`}>{title}</h1>
     )
 }

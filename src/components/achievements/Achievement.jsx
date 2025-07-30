@@ -31,23 +31,25 @@ export default function Achievement() {
                     {/* Unique Designs  */}
                     <Card headerText={'Unique Designs'} paraText={'We provide the best UI/UX Design by following the latest trends of the market.'} 
                         bgIcon={'bg-yellow'} borderIconRadius={'rounded-[43px]'}  widthBg={'w-[60px] h-[60px]'} icon={<RiImageCircleFill size={46} style={{color: '#FFBD4E'}} />}
-                        textSize={'text-[27px]'} MarginTop={'mt-2'} width={'w-[350px] xl:w-[390px]'} height={'h-[290px] xl:h-[322px]'} textColor={'text-[var(--color-black)]'} paraHeight={'h-[63px]'} paraWidth={'w-[270px]'}
-                        borderColor={'border-[var(--color-hr)]'} borderRight={'max-lg:border-b md:border-r'} 
+                        textSize={'text-[27px]'} MarginTop={'mt-2'} width={'w-[350px] xl:w-[390px]'} height={'h-[290px] xl:h-[322px]'} textColor={'text-[var(--color-black)]'} paraHeight={'h-[63px]'} 
+                        paraWidth={'w-[270px]'} padding={' p-5'}
+                        borderColor={'border-[var(--color-hr)]'} borderRight={'max-lg:border-b md:border-r'} paraColor={'text-[var(--color-black)]'} bgColor={'hover:bg-toggle'} borderRadius={'rounded-[10px]'}
                         />
 
                     {/* Fitting Your Business  */}
                     <Card headerText={'Fitting Your Business '} paraText={'We create and innovate, with us you can guarantee the highly standards of inventions'} bgIcon={'bg-red'} 
                         borderIconRadius={'rounded-[43px]'}  widthBg={'w-[60px] h-[60px]'} icon={<GiGymBag size={34} style={{color: '#EB2F4A'}} />}
-                        textSize={'text-[27px]'} MarginTop={'mt-2'} width={'w-[350px] xl:w-[390px]'} height={'h-[290px] xl:h-[322px]'} textColor={'text-white'} paraHeight={'h-[63px]'} paraWidth={'w-[270px]'}
-                        borderColor={'border-[var(--color-hr)]'} borderRight={'max-lg:border-b lg:border-r'} bgColor={'bg-toggle'} 
-                        borderRadius={'rounded-[10px]'} padding={' p-5'} 
+                        textSize={'text-[27px]'} MarginTop={'mt-2'} width={'w-[350px] xl:w-[390px]'} height={'h-[290px] xl:h-[322px]'} paraHeight={'h-[63px]'} paraWidth={'w-[270px]'}
+                        borderColor={'border-[var(--color-hr)]'} borderRight={'max-lg:border-b lg:border-r'} bgColor={'hover:bg-toggle'} borderRadius={'rounded-[10px]'}
+                        padding={' p-5'} 
                     />
 
                     {/* Fresh Ideas */}
                     <Card headerText={'Fresh Ideas'} paraText={'We provide the best UI/UX Design by following the latest trends of the market.'} bgIcon={'bg-green'} 
                         borderIconRadius={'rounded-[43px]'}  widthBg={'w-[60px] h-[60px]'} icon={<SiCodefresh size={34} style={{color: '#52C3D6'}} />}
                         textSize={'text-[27px]'} MarginTop={'mt-2'} width={'w-[350px] xl:w-[390px]'} height={'h-[290px] xl:h-[322px]'} textColor={'text-[var(--color-black)]'} 
-                        paraHeight={'h-[63px]'} paraWidth={'w-[270px]'}  borderRight={'max-xl:border-t'} borderColor={'border-[var(--color-hr)]'}
+                        paraHeight={'h-[63px]'} paraWidth={'w-[270px]'}  borderRight={'max-xl:border-t'} borderColor={'border-[var(--color-hr)]'} paraColor={'text-[var(--color-black)]'}
+                        bgColor={'hover:bg-toggle'} borderRadius={'rounded-[10px]'} padding={' p-5'}
                         />
                 </div>
 

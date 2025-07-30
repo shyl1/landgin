@@ -10,7 +10,7 @@ export default function Delivering() {
     return (
         <section className="w-full h-[50vh] flex flex-col items-center mt-5 md:mt-25">
 
-            <Title title={'Delivering'} />
+            <Title title={'Delivering'} fontSize={'text-[22px]'}/>
 
             <SubTitle subtitle={'Your Project With The Newest Technologies Used'} fontSize={'text-[20px] sm:text-[25px] md:text-[37px]'} textPostion={'text-center'} width={'w-[350px] sm:w-[380px] md:w-[526px]'} height={'h-[81px]'} leading={'leading-[103%]'}/>
 

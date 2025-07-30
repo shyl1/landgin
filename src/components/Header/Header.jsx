@@ -62,7 +62,7 @@ export default function Header() {
                     </div>
                     {/* call to action btn */}
 
-                    <Button visible={'max-md:hidden'} text={'LETS TALK'}/>
+                    <Button visible={'max-md:hidden'} text={'LETS TALK'} padding={'px-5 py-3'}/>
                     
                 </div>
 

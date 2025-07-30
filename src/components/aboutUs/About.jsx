@@ -18,7 +18,7 @@ export default function About() {
                 <div className="flex flex-col w-[524px]">
 
                     {/* about us title */}
-                    <Title title={'about us'}/>
+                    <Title title={'about us'} fontSize={'text-[22px]'}/>
 
                     {/* sub title */}
                     <SubTitle subtitle={'We Are More Than an Agency'} fontSize={'text-[30px] md:text-[50px]'} leading={'leading-[103%]'} />
@@ -50,7 +50,7 @@ export default function About() {
 
                     {/* CTA */}
                     <div className="mt-11">
-                        <Button text={'LETS TALK'}/>
+                        <Button text={'LETS TALK'} padding={'px-5 py-3'}/>
                     </div>
                 </div>
             </div>

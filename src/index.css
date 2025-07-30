@@ -11,6 +11,10 @@
     --color-yellow: rgba(255, 189, 78, 0.25);
     --color-red:rgba(235, 47, 74, 0.25);
     --color-green:rgba(82, 195, 214, 0.25);
+    --color-gray: rgba(143, 143, 143, 1);
+    --color-line-tab: rgba(41, 45, 50, 1);
+    --color-para-card:rgba(28, 52, 76, 0.7);
+
 
 
     /* fonts */

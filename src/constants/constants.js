@@ -30,3 +30,10 @@ export const images = [
         img: Bootstrap,
     },
 ]; 
+
+
+export const tabs = [
+    'Development',
+    'Digital Marketing',
+    'Creative Design'
+];
