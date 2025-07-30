@@ -9,7 +9,7 @@ export default function About() {
     return (
         <section className="max-sm:px-6 h-screen w-full bg-center bg-cover flex justify-center items-center mt-25" style={{backgroundImage: `url(${AboutImg})`}}>
 
-            <div className="container flex justify-center xl:justify-between items-center">
+            <div className="container flex justify-center xl:gap-20 items-center">
 
                 {/* img */}
                 <img src={Illustration} alt="about us" className="max-xl:hidden" />

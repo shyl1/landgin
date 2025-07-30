@@ -22,6 +22,19 @@
 
     /* customizing shadows */
     --shadow-custom:  0 0 35px 10px rgba(0, 0, 0, 0.06);
+
+
+    /* animating */
+    /* --animate-infinite-scroll: infinite-scroll 20s linear infinite; 
+
+    @keyframes infinite-scroll {
+        0% {
+            transform: translateX(10%);
+        }
+        100% {
+            transform: translateX(-80%);
+        }
+    } */
 }
 
 .container{
