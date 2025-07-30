@@ -4,6 +4,7 @@ import CreativeAndTalented from "./components/CreativeAndTalented/CreativeAndTal
 import Delivering from "./components/Delivering/Delivering";
 import Header from "./components/Header/Header";
 import Hero from "./components/Herosection/Hero";
+import Partners from "./components/Partners/Partners";
 import Portfolio from "./components/portofolio/Portfolio";
 
 
@@ -16,8 +17,8 @@ export default function App() {
             <About />
             <Delivering />
             <CreativeAndTalented />
-
             <Portfolio />
+            <Partners />
         </>
     )
 }

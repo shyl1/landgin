@@ -1,4 +1,4 @@
-import { Anguler, Bootstrap, Breeze, Hiv, JavaScript, Python, Shopfiy, Vat, Vue, Wordpress } from "../assets/index.js";
+import { Adobe, Anguler, Bootstrap, Breeze, Google, Hiv, JavaScript, Microsfot, Paypal, Python, Shopfiy, Spotify, Vat, Vue, Wordpress } from "../assets/index.js";
 
 export const images = [
     {
@@ -39,9 +39,6 @@ export const tabs = [
 ];
 
 
-
-
-
 export const projects =[
     {
         id: 1 ,
@@ -61,4 +58,28 @@ export const projects =[
         name: 'HIV Academy',
         deve: 'ANDROID & IOS'
     },
+];
+
+
+export const logos = [
+    {
+        id: 1,
+        img: Spotify,
+    },
+    {
+        id: 2,
+        img: Google,
+    },
+    {
+        id: 3,
+        img: Paypal,
+    },
+    {
+        id: 4,
+        img: Microsfot,
+    },
+    {
+        id: 5,
+        img: Adobe,
+    }
 ];

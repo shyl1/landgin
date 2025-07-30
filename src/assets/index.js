@@ -15,6 +15,11 @@ import Bg from './bg.png';
 import Vat from './vat.png';
 import Breeze from './breexe.png';
 import Hiv from './hiv.png';
+import Spotify from './spotify.png';
+import Paypal from './paypal.png';
+import Microsfot from './micosoft.png';
+import Google from './google.png';
+import Adobe from './adobe.png';
 
 
 export {
@@ -35,4 +40,9 @@ export {
     Vat,
     Breeze,
     Hiv,
+    Spotify,
+    Paypal,
+    Microsfot,
+    Google,
+    Adobe,
 };

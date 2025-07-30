@@ -8,7 +8,7 @@ import Button from '../shared/Button';
 
 export default function Portfolio() {
     return (
-        <section className="w-full h-full px-3 mt-20">
+        <section className="w-full h-full px-3 my-20">
 
             <div className="flex flex-col justify-center items-center mb-5">
                 <Title  title={'OUR PORTFOLIO'} fontSize={'text-[22px]'}/>
