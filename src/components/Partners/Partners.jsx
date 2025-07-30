@@ -3,7 +3,7 @@ import Title from '../shared/Title';
 
 export default function Partners() {
     return (
-        <section className="container h-[50vh] px-5">
+        <section className="container h-auto px-5">
 
             <div className="w-full border-b pb-3 border-[var(--color-hr)]">
                 <Title title={'OUR PARTNERS'}  fontSize={'text-[15px] sm:text-[22px]'}/>

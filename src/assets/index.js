@@ -20,6 +20,7 @@ import Paypal from './paypal.png';
 import Microsfot from './micosoft.png';
 import Google from './google.png';
 import Adobe from './adobe.png';
+import Web from './web.png';
 
 
 export {
@@ -45,4 +46,5 @@ export {
     Microsfot,
     Google,
     Adobe,
+    Web,
 };

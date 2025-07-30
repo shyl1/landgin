@@ -6,6 +6,7 @@ import Header from "./components/Header/Header";
 import Hero from "./components/Herosection/Hero";
 import Partners from "./components/Partners/Partners";
 import Portfolio from "./components/portofolio/Portfolio";
+import WebHosting from "./components/WebHosting/WebHosting";
 
 
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
             <CreativeAndTalented />
             <Portfolio />
             <Partners />
+            <WebHosting />
         </>
     )
 }
