@@ -1,4 +1,4 @@
-import { Anguler, Bootstrap, JavaScript, Python, Shopfiy, Vue, Wordpress } from "../assets/index.js";
+import { Anguler, Bootstrap, Breeze, Hiv, JavaScript, Python, Shopfiy, Vat, Vue, Wordpress } from "../assets/index.js";
 
 export const images = [
     {
@@ -36,4 +36,29 @@ export const tabs = [
     'Development',
     'Digital Marketing',
     'Creative Design'
+];
+
+
+
+
+
+export const projects =[
+    {
+        id: 1 ,
+        img: Vat,
+        name: 'Vat Services',
+        deve: 'ANDROID & IOS'
+    },
+    {
+        id: 2 ,
+        img: Breeze,
+        name: 'Breeze',
+        deve: 'ANDROID & IOS'
+    },
+    {
+        id: 3,
+        img: Hiv,
+        name: 'HIV Academy',
+        deve: 'ANDROID & IOS'
+    },
 ];

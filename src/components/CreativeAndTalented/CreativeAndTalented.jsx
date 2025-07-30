@@ -17,7 +17,7 @@ export default function CreativeAndTalented() {
     const [activeTab, setActiveTab] = useState("Development");
 
     return (
-        <section className="h-screen w-full flex flex-col items-center mt-20">
+        <section className="h-full w-full flex flex-col items-center mt-20">
 
             <div className=' w-full lg:w-[971px] flex justify-between items-center px-3'>
                 

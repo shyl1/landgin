@@ -4,6 +4,7 @@ import CreativeAndTalented from "./components/CreativeAndTalented/CreativeAndTal
 import Delivering from "./components/Delivering/Delivering";
 import Header from "./components/Header/Header";
 import Hero from "./components/Herosection/Hero";
+import Portfolio from "./components/portofolio/Portfolio";
 
 
 export default function App() {
@@ -15,6 +16,8 @@ export default function App() {
             <About />
             <Delivering />
             <CreativeAndTalented />
+
+            <Portfolio />
         </>
     )
 }

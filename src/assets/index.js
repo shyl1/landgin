@@ -10,6 +10,11 @@ import Bootstrap from './bootstrap.png';
 import Wordpress from './Wordpress.png';
 import JavaScript from './js.png';
 import Anguler from './angular.png';
+import Mobile from './mobile.png';
+import Bg from './bg.png';
+import Vat from './vat.png';
+import Breeze from './breexe.png';
+import Hiv from './hiv.png';
 
 
 export {
@@ -25,4 +30,9 @@ export {
     Wordpress,
     JavaScript,
     Anguler,
+    Mobile,
+    Bg,
+    Vat,
+    Breeze,
+    Hiv,
 };
