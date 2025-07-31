@@ -9,6 +9,7 @@ import Portfolio from "./components/portofolio/Portfolio";
 import Team from "./components/Team/Team";
 import Testimonials from "./components/Testimonials/Testimonials";
 import WebHosting from "./components/WebHosting/WebHosting";
+import World from "./components/world/World";
 
 
 export default function App() {
@@ -25,6 +26,7 @@ export default function App() {
             <WebHosting />
             <Testimonials />
             <Team />
+            <World />
         </>
     )
 }

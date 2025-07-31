@@ -23,6 +23,7 @@ import Adobe from './adobe.png';
 import Web from './web.png';
 import Avater from './a27bb91afb0ec304610b4834f08a60cec93a7a06.jpg';
 import Image from './4875e15461377b2b7391c4caa538038716564afa.png';
+import Map from './World Map.png';
 
 
 export {
@@ -51,4 +52,5 @@ export {
     Web,
     Avater,
     Image,
+    Map,
 };
