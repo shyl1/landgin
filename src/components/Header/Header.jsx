@@ -3,12 +3,14 @@ import { RiTranslate } from "react-icons/ri";
 import { IoMoonOutline } from "react-icons/io5";
 import { RiSunLine } from "react-icons/ri";
 import { Logo } from "../../assets";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Button from "../shared/Button";
 
 export default function Header() {
 
     const [isDark, setIsDark] = useState(false);
+
+     const [scrolled, setScrolled] = useState(false);
 
     function toggleTheme()  {
         setIsDark(!isDark);
@@ -20,8 +22,18 @@ export default function Header() {
     };
 
 
+    useEffect(() => {
+        const handleScroll = () => {
+            setScrolled(window.scrollY > 0);
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
+
     return (
-        <header className="fixed backdrop-blur-xs bg-white/10 w-full h-[110px] top-0 z-20 flex items-center ">
+        <header className={`fixed w-full h-[110px] top-0 z-20 flex items-center transition-all duration-300 
+            ${scrolled ? "backdrop-blur-xs bg-white/10" : "bg-transparent"}`}>
             
             <div className="container flex justify-between items-center max-2xl:px-5">
                 {/* menu */}

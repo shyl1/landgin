@@ -8,7 +8,7 @@ import { HiOutlineBuildingLibrary } from "react-icons/hi2";
 
 export default function World() {
     return (
-        <section className="w-full h-full relative mb-25">
+        <section className="w-full h-auto relative mb-5 md:mb-25">
 
             <div className="text-center mb-8">
                 <Title title={'AROUND THE WORLD'} fontSize={'text-[22px]'} />

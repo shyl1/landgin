@@ -10,7 +10,7 @@ import Card from './Card';
 
 export default function Testimonials() {
     return (
-        <section  className="flex gap-10 max-md:flex-col mb-25">
+        <section  className="flex gap-10 max-md:flex-col mb-35">
             <div className='flex flex-col ml-5 lg:ml-25  mt-3 md:h-[399px] justify-center  max-md:w-full '>
                 <Title title={'TESTIMONIALS'} fontSize={'text-[22px]'}  />
                 <SubTitle subtitle={'Our Success Stories!'} width={'w-[200px]'} leading={'leading-[103%]'}  fontSize={'text-[16px] sm:text-[25px] md:text-[33px]'}/>

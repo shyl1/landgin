@@ -6,7 +6,7 @@ import Title from "../shared/Title";
 
 export default function WebHosting() {
     return (
-        <section className="w-full h-[70vh] sm:h-screen px-3 mt-35 mb-25">
+        <section className="w-full h-[70vh] sm:h-screen px-3 my-20 md:my-35">
             <div className="w-full h-full rounded-[35px] flex flex-col pt-25 items-center relative overflow-hidden" style={{background:" radial-gradient(50% 50% at 50% 50%, #345D86 0%, #1C344C 100%" }}>
 
                 <Title title={'NEED A WEB HOSTING'} fontSize={'text-[16px] sm:text-[22px]'}/>

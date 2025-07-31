@@ -1,5 +1,6 @@
 import { Adobe, Anguler, Avater, Bootstrap, Breeze, Google, Hiv, Image, JavaScript, Microsfot, Paypal, Python, Shopfiy, Spotify, Vat, Vue, Wordpress } from "../assets/index.js";
 
+
 export const images = [
     {
         id: 1,
@@ -31,12 +32,6 @@ export const images = [
     },
 ]; 
 
-
-export const tabs = [
-    'Development',
-    'Digital Marketing',
-    'Creative Design'
-];
 
 
 export const projects =[
@@ -173,4 +168,113 @@ export const Naving = [
     'Portfolio',
     'Web Hosting',
     'Testimonials',
+];
+
+
+export const cards =[
+    {
+        name: 'Development',
+        card: [
+            {
+                title: 'Android Apps',
+                desc: 'We provide the best UI/UX Design by following the latest.',
+                iconName: 'android'
+            },
+            {
+                title: 'IOS Apps',
+                desc: 'We provide the best UI/UX Design by following the latest.',
+                iconName: 'apple'
+            },
+            {
+                title: 'PHP',
+                desc: 'We provide the best UI/UX Design by following the latest.',
+                iconName: 'php'
+            },
+            {
+                title: 'WordPress',
+                desc: 'We provide the best UI/UX Design by following the latest.',
+                iconName: 'wordpress'
+            },
+            {
+                title: 'React JS',
+                desc: 'We provide the best UI/UX Design by following the latest.',
+                iconName: 'react'
+            },
+            {
+                title: 'VR',
+                desc: 'We provide the best UI/UX Design by following the latest.',
+                iconName: 'vr'
+            },
+        ],
+    },
+    {
+        name: 'Digital Marketing',
+        card: [
+            {
+                title: 'VR',
+                desc: 'We provide the best UI/UX Design by following the latest.',
+                iconName: 'vr'
+            },
+            {
+                title: 'Android Apps',
+                desc: 'We provide the best UI/UX Design by following the latest.',
+                iconName: 'android'
+            },
+            {
+                title: 'IOS Apps',
+                desc: 'We provide the best UI/UX Design by following the latest.',
+                iconName: 'apple'
+            },
+            {
+                title: 'React JS',
+                desc: 'We provide the best UI/UX Design by following the latest.',
+                iconName: 'react'
+            },
+            {
+                title: 'WordPress',
+                desc: 'We provide the best UI/UX Design by following the latest.',
+                iconName: 'wordpress'
+            },
+            {
+                title: 'PHP',
+                desc: 'We provide the best UI/UX Design by following the latest.',
+                iconName: 'php'
+            },
+        ],
+    },
+    {
+        name: 'Creative Design',
+        card: [
+            {
+                title: 'PHP',
+                desc: 'We provide the best UI/UX Design by following the latest.',
+                iconName: 'php'
+            },
+            {
+                title: 'IOS Apps',
+                desc: 'We provide the best UI/UX Design by following the latest.',
+                iconName: 'apple'
+            },
+            {
+                title: 'WordPress',
+                desc: 'We provide the best UI/UX Design by following the latest.',
+                iconName: 'wordpress'
+            },
+            {
+                title: 'Android Apps',
+                desc: 'We provide the best UI/UX Design by following the latest.',
+                iconName: 'android'
+            },
+            {
+                title: 'React JS',
+                desc: 'We provide the best UI/UX Design by following the latest.',
+                iconName: 'react'
+            },
+            {
+                title: 'VR',
+                desc: 'We provide the best UI/UX Design by following the latest.',
+                iconName: 'vr'
+            },
+        ],
+    },
 ];

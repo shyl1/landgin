@@ -19,7 +19,7 @@ export default function Footer() {
                     <input
                         type="email"
                         placeholder="Enter your email"
-                        class="flex-1 p-3 md:px-4 md:py-3 text-[12px] sm:text-[16px] text-gray-600 placeholder-gray-400 focus:outline-none "
+                        className="flex-1 p-3 md:px-4 md:py-3 text-[12px] sm:text-[16px] text-gray-600 placeholder-gray-400 focus:outline-none "
                     />
                     <Button text={'SUBSCRIBE NOW'} padding={'p-2 md:px-5 md:py-3'} textSize={'text-[12px]'} />
                     </div>

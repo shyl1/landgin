@@ -8,7 +8,7 @@ import Card from "./Card";
 
 export default function Team() {
     return (
-        <section className=" relative h-[100vh] w-full overflow-hidden flex flex-col justify-center mb-11">
+        <section className=" relative h-auto w-full overflow-hidden flex flex-col justify-center mb-20  md:mb-45">
             <div className="flex justify-center items-start absolute top-[-11%] text-[200px] bg-[linear-gradient(180deg,_rgba(28,52,76,0.1)_0%,_rgba(255,255,255,0)_100%)] bg-clip-text text-transparent font-space font-bold whitespace-nowrap">TEAM MEMBERS</div>
 
             <div className="mt-11 text-center">
