@@ -17,7 +17,7 @@ export default function Delivering() {
 
             {/* infinite scroll using swiper */}
             <div className="w-full mt-10">
-                {/* <Swiper
+                <Swiper
                     modules={[Autoplay]}
                     slidesPerView="auto"
                     spaceBetween={20}
@@ -37,7 +37,7 @@ export default function Delivering() {
                             </SwiperSlide>
                         ))
                     }
-                </Swiper> */}
+                </Swiper>
             </div>
         </section>
     )

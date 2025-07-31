@@ -52,7 +52,7 @@ export default function CreativeAndTalented() {
                             <button
                                 key={card.name}
                                 onClick={() => setActiveTab(card.name)}
-                                className={`text-[16px] sm:text-[22px] font-bold font-space  pb-3 transition-colors duration-200 cursor-pointer  ${
+                                className={`text-[14px] sm:text-[22px] font-bold font-space  pb-3 transition-colors duration-200 cursor-pointer  ${
                                     activeTab === card.name
                                         ? "text-[var(--color-primary)] border-b-3 border-[var(--color-line-tab)] "
                                         : "text-[var(--color-gray)] hover:text-[var(--color-toggle)]"

@@ -20,7 +20,7 @@ export default function Hero() {
                 <div className="text-center text-[30px] sm:text-[48px] text-[var(--color-black)] font-space tracking-[0.105em] font-medium  mt-5">
                     <span>WE BUILD </span>
                     <span className="text-[var(--color-primary)]">
-                        {/* <Typewriter
+                        <Typewriter
                         words={['APPS']}
                         loop={0}
                         cursor
@@ -28,7 +28,7 @@ export default function Hero() {
                         typeSpeed={100}
                         deleteSpeed={50}
                         delaySpeed={1000}
-                        /> */}
+                        />
                     </span>
 
                     <div className='text-[30px] sm:text-[48px] font-space tracking-[10.5%] font-medium uppercase '>
@@ -41,12 +41,12 @@ export default function Hero() {
                 {/* circular typewriting */}
 
                 <div className="bg-white w-[180px] h-[180px] mt-11 rounded-full  relative shadow-[var(--shadow-custom)]">
-                    {/* <CircularText 
+                    <CircularText 
                         text="PARTERYOURCREATIVE "
                         onHover="slowDown"
                         spinDuration={20}
                         className="custom-class"
-                    /> */}
+                    />
                     
                     <span className="absolute top-[35%] left-[36%] bg-primary w-[50px] h-[50px] flex justify-center items-center rounded-full">
                         <LuPlay size={22}  style={{color: 'white'}}/>
