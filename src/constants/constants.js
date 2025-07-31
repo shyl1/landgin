@@ -1,4 +1,4 @@
-import { Adobe, Anguler, Bootstrap, Breeze, Google, Hiv, JavaScript, Microsfot, Paypal, Python, Shopfiy, Spotify, Vat, Vue, Wordpress } from "../assets/index.js";
+import { Adobe, Anguler, Avater, Bootstrap, Breeze, Google, Hiv, JavaScript, Microsfot, Paypal, Python, Shopfiy, Spotify, Vat, Vue, Wordpress } from "../assets/index.js";
 
 export const images = [
     {
@@ -82,4 +82,39 @@ export const logos = [
         id: 5,
         img: Adobe,
     }
+];
+
+export const testimonials =[
+    {
+        id: 1,
+        header: 'Great company and great team thanks a lot !',
+        body: '<< Dico is finally addressing a long time problem we had when building UIs. It’s ease of use and workflow seems really intuitive. Promising! >><< Dico is finally addressing a long time problem',
+        img: Avater,
+        name: 'Martin Goutry',
+        pos:'Web Developer'
+    },
+    {
+        id: 2,
+        header: 'Great company and great team thanks a lot !',
+        body: '<< Dico is finally addressing a long time problem we had when building UIs. It’s ease of use and workflow seems really intuitive. Promising! >><< Dico is finally addressing a long time problem',
+        img: Avater,
+        name: 'Martin Goutry',
+        pos:'Web Developer'
+    },
+    {
+        id: 3,
+        header: 'Great company and great team thanks a lot !',
+        body: '<< Dico is finally addressing a long time problem we had when building UIs. It’s ease of use and workflow seems really intuitive. Promising! >><< Dico is finally addressing a long time problem',
+        img: Avater,
+        name: 'Martin Goutry',
+        pos:'Web Developer'
+    },
+    {
+        id: 4,
+        header: 'Great company and great team thanks a lot !',
+        body: '<< Dico is finally addressing a long time problem we had when building UIs. It’s ease of use and workflow seems really intuitive. Promising! >><< Dico is finally addressing a long time problem',
+        img: Avater,
+        name: 'Martin Goutry',
+        pos:'Web Developer'
+    },
 ];

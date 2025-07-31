@@ -6,6 +6,7 @@ import Header from "./components/Header/Header";
 import Hero from "./components/Herosection/Hero";
 import Partners from "./components/Partners/Partners";
 import Portfolio from "./components/portofolio/Portfolio";
+import Testimonials from "./components/Testimonials/Testimonials";
 import WebHosting from "./components/WebHosting/WebHosting";
 
 
@@ -21,6 +22,7 @@ export default function App() {
             <Portfolio />
             <Partners />
             <WebHosting />
+            <Testimonials />
         </>
     )
 }

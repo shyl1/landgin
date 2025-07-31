@@ -21,6 +21,7 @@ import Microsfot from './micosoft.png';
 import Google from './google.png';
 import Adobe from './adobe.png';
 import Web from './web.png';
+import Avater from './a27bb91afb0ec304610b4834f08a60cec93a7a06.jpg';
 
 
 export {
@@ -47,4 +48,5 @@ export {
     Google,
     Adobe,
     Web,
+    Avater,
 };
