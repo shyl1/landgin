@@ -1,4 +1,4 @@
-import { Adobe, Anguler, Avater, Bootstrap, Breeze, Google, Hiv, JavaScript, Microsfot, Paypal, Python, Shopfiy, Spotify, Vat, Vue, Wordpress } from "../assets/index.js";
+import { Adobe, Anguler, Avater, Bootstrap, Breeze, Google, Hiv, Image, JavaScript, Microsfot, Paypal, Python, Shopfiy, Spotify, Vat, Vue, Wordpress } from "../assets/index.js";
 
 export const images = [
     {
@@ -116,5 +116,52 @@ export const testimonials =[
         img: Avater,
         name: 'Martin Goutry',
         pos:'Web Developer'
+    },
+];
+
+
+
+export const team = [
+    {
+        id:1,
+        name: 'M.ATEF',
+        pos: 'UI UX Designer',
+        img: Image,
+    },
+    {
+        id:2,
+        name: 'M.ATEF',
+        pos: 'UI UX Designer',
+        img: Image,
+    },
+    {
+        id:3,
+        name: 'M.ATEF',
+        pos: 'UI UX Designer',
+        img: Image,
+    },
+    {
+        id:4,
+        name: 'M.ATEF',
+        pos: 'UI UX Designer',
+        img: Image,
+    },
+    {
+        id:5,
+        name: 'M.ATEF',
+        pos: 'UI UX Designer',
+        img: Image,
+    },
+    {
+        id:6,
+        name: 'M.ATEF',
+        pos: 'UI UX Designer',
+        img: Image,
+    },
+    {
+        id:7,
+        name: 'M.ATEF',
+        pos: 'UI UX Designer',
+        img: Image,
     },
 ];

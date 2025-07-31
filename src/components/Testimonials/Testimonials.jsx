@@ -24,24 +24,24 @@ export default function Testimonials() {
             {/* slider */}
             <div className='overflow-x-hidden'> 
                 <div  className='w-full'>
-                <Swiper
-                    slidesPerView={'auto'}
-                    spaceBetween={20}
-                    loop={false}
-                    grabCursor={true}
-                    allowTouchMove={true}
-                    className="w-full"
-                >
-                    {
-                        testimonials.map((test)=>(
-                            <SwiperSlide key={test.id} className='!w-[331px]'>
-                                <Card name={test.name} header={test.header} body={test.body} position={test.pos} image={test.img} />
-                            </SwiperSlide>
-                        ))
-                    }
-                </Swiper>
+                    <Swiper
+                        slidesPerView={'auto'}
+                        spaceBetween={20}
+                        loop={false}
+                        grabCursor={true}
+                        allowTouchMove={true}
+                        className="w-full"
+                    >
+                        {
+                            testimonials.map((test)=>(
+                                <SwiperSlide key={test.id} className='!w-[331px]'>
+                                    <Card name={test.name} header={test.header} body={test.body} position={test.pos} image={test.img} />
+                                </SwiperSlide>
+                            ))
+                        }
+                    </Swiper>
 
-            </div>
+                </div>
             </div>
         </section>
         

@@ -9,7 +9,7 @@ export default function Hero() {
     return (
     <section>
         <section className="w-full h-[98vh] relative bg-center bg-cover overflow-hidden" style={{backgroundImage : `url(${HeroBg})`}}>
-            <div className="absolute top-[-20%] text-[200px] bg-gradient-to-b from-[#DEDEDE] to-transparent bg-clip-text text-transparent font-[var(--font-space)] text-bold whitespace-nowrap ">CREATIVE MINDS</div>
+            <div className="absolute top-[-20%] text-[200px] bg-gradient-to-b from-[#DEDEDE] to-transparent bg-clip-text text-transparent font-space text-bold whitespace-nowrap ">CREATIVE MINDS</div>
 
 
             <div className="flex justify-center items-center flex-col pt-[120px]">

@@ -7,7 +7,7 @@ export default function Card({header , body ,  image , name , position}) {
             <h1 className="text-[22px] font-space font-semibold text-white text-center">{header}</h1>
             <p className="font-red text-[14px] font-semibold text-white mt-5 text-center">{body}</p>
 
-            <div className="flex flex-col justify-center items-center  mt-11">
+            <div className="flex flex-col justify-center items-center gap-y-2  mt-11">
                 <img src={image} alt="image" className="w-[50px] h-[50px] rounded-full object-cover" />
                 <span className="font-red text-[18px] leading-[100%] font-medium text-white">{name}</span>
                 <span className="text-[var(--color-light-gray)] text-[12px] font-medium font-red">{position}</span>
