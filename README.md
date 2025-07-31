@@ -1,3 +1,2 @@
 - header
 - counter 
-- hover on cards 

@@ -165,3 +165,12 @@ export const team = [
         img: Image,
     },
 ];
+
+export const Naving = [
+    'Home',
+    'About Us',
+    'Services',
+    'Portfolio',
+    'Web Hosting',
+    'Testimonials',
+];

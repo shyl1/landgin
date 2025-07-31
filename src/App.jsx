@@ -2,6 +2,7 @@ import About from "./components/aboutUs/About";
 import Achievement from "./components/achievements/achievement";
 import CreativeAndTalented from "./components/CreativeAndTalented/CreativeAndTalented";
 import Delivering from "./components/Delivering/Delivering";
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Hero from "./components/Herosection/Hero";
 import Partners from "./components/Partners/Partners";
@@ -27,6 +28,7 @@ export default function App() {
             <Testimonials />
             <Team />
             <World />
+            <Footer />
         </>
     )
 }
