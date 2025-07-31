@@ -1,5 +1,5 @@
 import About from "./components/aboutUs/About";
-import Achievement from "./components/achievements/achievement";
+import Achievement from "./components/achievements/Achievement";
 import CreativeAndTalented from "./components/CreativeAndTalented/CreativeAndTalented";
 import Delivering from "./components/Delivering/Delivering";
 import Footer from "./components/Footer/Footer";
